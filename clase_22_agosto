@@ -1,3 +1,8 @@
+go
+use UNIVERSIDAD
+go
+
+-- CLASE 22 DE AGOSTO --
 select e.primerNombre, e.primerApellido, c.nombre AS carrera
 FROM ESTUDIANTES e 
 INNER JOIN ESTUDIANTEXCARRERA ec 
@@ -44,3 +49,5 @@ inner join ASIGNATURAS a
 on ac.idAsignatura=a.idAsignatura
 inner join PROFESORES p 
 on g.codigoProfesor=p.codigoProfesor;
+
+
