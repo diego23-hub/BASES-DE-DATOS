@@ -1,0 +1,5 @@
+go
+use UNIVERSIDAD
+go
+
+-- CLASE 05 DE SEPTIEMBRE --
